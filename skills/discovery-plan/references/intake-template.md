@@ -1,46 +1,46 @@
 ---
-studie: <studienaam>
-datum: <JJJJ-MM-DD>
-bron: workshop | chat
+study: <study name>
+date: <YYYY-MM-DD>
+source: workshop | chat
 medium: poster | board-export | chat
-aanwezig: <namen of rollen; leeg bij chat>
+present: <names or roles; empty for chat>
 ---
 
-# Intake: <studienaam>
+# Intake: <study name>
 
-Onleesbare of dubbelzinnige punten staan gemarkeerd met [?].
+Illegible or ambiguous items are marked with [?].
 
-## 1. Brandende vraag
-- Vraag:
-- Type: behoefte | gebruikers | huidige oplossing | workflow | wil | bruikbaarheid | vindbaarheid
-- Andere kandidaat-vragen:
+## 1. Burning question
+- Question:
+- Type: need | users | current solution | workflow | desire | usability | findability
+- Other candidate questions:
 
-## 2. Aannames
-### Bedrijf
+## 2. Assumptions
+### Business
 -
-### Gebruikers
+### Customers
 -
 
-## 3. Prioriteit
-| Aanname | Risico | Bewijs | Door? |
+## 3. Priority
+| Assumption | Risk | Evidence | Selected? |
 | --- | --- | --- | --- |
 
-## 4. Modus
-- verkennen | toetsen, per gekozen aanname
+## 4. Mode
+- explore | test, per selected assumption
 
-## 5. Hypothese of klaar-criterium
+## 5. Hypothesis or done criterion
 -
 
-## 6. Deelnemers en methode
-- Segmenten:
-- Aantal:
-- Bron: panel | eigen kanalen
-- Methode:
+## 6. Participants and method
+- Segments:
+- Number:
+- Source: approved panel | existing customers
+- Method:
 
-## 7. Wat doen we met de uitkomst
-- Keuzes die dit kan veranderen:
-- Wie moet het horen:
-- Wanneer:
+## 7. What we do with the outcome
+- Choices this can change:
+- Who needs to hear it:
+- When:
 
-## Open punten
+## Open questions
 -

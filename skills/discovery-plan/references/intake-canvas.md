@@ -1,90 +1,90 @@
-# Intake-canvas
+# Intake canvas
 
-De vakken, hulpvragen en methodekaart die de skill discovery-plan gebruikt. Een poster- of boardversie volgt dezelfde zeven vakken.
+The sections, prompts and method card used by the discovery-plan skill. A poster or board version follows the same seven sections.
 
-Kop van het canvas: **studienaam · datum · wie vullen het in**
+Canvas header: **study name · date · who fills it in**
 
-## 1. Brandende vraag
+## 1. Burning question
 
-**Hulpvraag:** Wat willen we weten dat we nu niet weten?
+**Prompt:** What do we want to know that we do not know now?
 
-Kies het type vraag. Het type bepaalt later de methode.
+Choose the type of question. The type decides the method later.
 
-- Behoefte: wat hebben mensen nodig?
-- Gebruikers: wie zijn het?
-- Huidige oplossing: hoe lossen ze het nu op?
-- Workflow: hoe verloopt het over tijd?
-- Wil: willen ze dit echt?
-- Bruikbaarheid: kunnen ze het gebruiken?
-- Vindbaarheid: vinden ze wat ze zoeken?
+- Need: what do people need?
+- Users: who are they?
+- Current solution: how do they solve it now?
+- Workflow: how does it unfold over time?
+- Desire: do they really want this?
+- Usability: can they use it?
+- Findability: do they find what they are looking for?
 
-**Voorbeeld:** "Waarom rondt maar een klein deel van de klanten die de aanvraag starten die ook af?" (bruikbaarheid)
+**Example:** "Why does only a small share of customers who start the application actually complete it?" (usability)
 
-## 2. Aannames
+## 2. Assumptions
 
-**Hulpvraag:** Wat denken we nu al? Eén aanname per post-it, beginnend met "We denken dat...".
+**Prompt:** What do we already believe? One assumption per sticky note, starting with "We believe that...".
 
-Twee kolommen:
-- **Bedrijf:** waarde, prijs, kanaal, concurrentie
-- **Gebruikers:** wie, waarom, wanneer, wat ze nu doen
+Two columns:
+- **Business:** value, cost, channel, regulation
+- **Customers:** who, why, when, what they do now
 
-**Voorbeeld:** "We denken dat klanten afhaken omdat ze halverwege gegevens moeten opzoeken."
+**Example:** "We believe that customers drop out because they have to look up information halfway through."
 
-## 3. Prioriteren
+## 3. Prioritise
 
-**Hulpvraag:** Hoe erg is het als deze aanname niet klopt, en hoeveel bewijs hebben we nu?
+**Prompt:** How bad is it if this assumption is wrong, and how much evidence do we have now?
 
-Een 2x2:
-- Horizontaal: bewijs, van sterk (links) naar zwak (rechts)
-- Verticaal: risico als het niet klopt, van laag (onder) naar hoog (boven)
+A 2x2:
+- Horizontal: evidence, from strong (left) to weak (right)
+- Vertical: risk if it is wrong, from low (bottom) to high (top)
 
-**Rechtsboven = eerst onderzoeken.** Maximaal drie aannames gaan door.
+**Top right = research first.** Three assumptions at most go through.
 
-## 4. Modus
+## 4. Mode
 
-**Hulpvraag:** Kunnen we al opschrijven wat we denken dat waar is?
+**Prompt:** Can we already write down what we believe is true?
 
-- **Nee → verkennen.** We weten nog niet wat we niet weten.
-- **Ja → toetsen.** Er ligt een riskante aanname die we kunnen weerleggen.
+- **No → explore.** We do not yet know what we do not know.
+- **Yes → test.** There is a risky assumption we can disprove.
 
-## 5. Hypothese of klaar-criterium
+## 5. Hypothesis or done criterion
 
-**Bij toetsen:** "We denken dat [aanname] voor [wie]. Dat klopt als we [gedrag of signaal] zien bij [aantal of aandeel]."
+**When testing:** "We believe that [assumption] for [whom]. We are right if we see [behaviour or signal] in [number or share]."
 
-**Bij verkennen:** "We zijn klaar als we [wat we willen kunnen beschrijven] kunnen beschrijven."
+**When exploring:** "We are done when we can describe [what we want to be able to describe]."
 
-Schrijf dit op voordat er data is. Zoek naar wat je ongelijk geeft, niet naar bevestiging.
+Write this down before there is any data. Look for what proves you wrong, not for confirmation.
 
-**Voorbeeld:** "We denken dat het opzoeken van gegevens de grootste afhaakreden is voor nieuwe klanten. Dat klopt als minstens 3 van de 5 testers op die stap vastlopen of het noemen."
+**Example:** "We believe that looking up information is the main reason new customers drop out. We are right if at least 3 of the 5 testers get stuck at that step or mention it."
 
-## 6. Deelnemers en methode
+## 6. Participants and method
 
-**Hulpvraag:** Bij wie zien we het gedrag dat we willen begrijpen, en hoe zien we het?
+**Prompt:** Who shows the behaviour we want to understand, and how do we see it?
 
-- **Wie:** maximaal twee segmenten, gekozen op gedrag of aanleiding, niet alleen demografie
-- **Hoeveel:** usabilitytest 5 per segment, interviews 6 tot 8 per segment
-- **Waar vandaan:** goedgekeurd panel of testtool van de organisatie, of eigen klanten via de officiële kanalen
-- **Methode:** zie de methodekaart hieronder. Gedrag boven mening.
+- **Who:** at most two segments, chosen on behaviour or trigger, not on demographics alone
+- **How many:** usability test 5 per segment, interviews 6 to 8 per segment
+- **Where from:** the organisation's approved panel or test tool, or existing customers through official channels
+- **Method:** see the method card below. Behaviour over opinion.
 
-## 7. Wat doen we met de uitkomst?
+## 7. What do we do with the outcome?
 
-**Hulpvraag:** Welke keuzes kan dit veranderen, wie moet het horen, en wanneer?
+**Prompt:** Which choices can this change, who needs to hear it, and when?
 
-**Voorbeeld:** "Als het opzoeken de oorzaak is, onderzoeken we vooraf ingevulde velden in de volgende sprint. Readout in de teamsessie."
+**Example:** "If looking up information is the cause, we explore pre-filled fields in the next sprint. Readout in the team session."
 
 ---
 
-## Methodekaart
+## Method card
 
-| Type vraag | Methode | Waar |
+| Question type | Method | Where |
 | --- | --- | --- |
-| Behoefte | Experience sampling of interviews over de laatste keer | Eigen klanten of goedgekeurd panel |
-| Gebruikers | Interviews, korte survey om segmenten te tellen | Goedgekeurd panel of eigen klanten |
-| Huidige oplossing | Observatie of interviews over wat mensen nu doen | Eigen klanten |
-| Workflow | Dagboekstudie | Goedgekeurd panel of eigen klanten |
-| Wil | Fake door, concierge-MVP, voorverkoop; niet vragen | Eigen product |
-| Bruikbaarheid | Usabilitytest met hardop denken | Goedgekeurde testtool |
-| Vindbaarheid | Tree test of card sort | Goedgekeurde testtool |
-| Welk ontwerp beter werkt | Voorkeurstest, first-click test of A/B-test | Goedgekeurde testtool of eigen product |
+| Need | Experience sampling or interviews about the last time | Existing customers or approved panel |
+| Users | Interviews, short survey to count segments | Approved panel or existing customers |
+| Current solution | Observation or interviews about what people do now | Existing customers |
+| Workflow | Diary study | Approved panel or existing customers |
+| Desire | Fake door, concierge MVP, pre-sale; do not ask | Own product |
+| Usability | Usability test with thinking aloud | Approved test tool |
+| Findability | Tree test or card sort | Approved test tool |
+| Which design works better | Preference test, first-click test or A/B test | Approved test tool or own product |
 
-Nooit direct vragen naar toekomstig gedrag of naar wat iemand zou betalen.
+Never ask directly about future behaviour or what someone would pay.

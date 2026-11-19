@@ -1,116 +1,120 @@
 ---
 name: discovery-plan
-description: Maakt een discovery-plan via het intake-canvas (brandende vraag, aannames, prioriteit, modus, hypothese, deelnemers en methode, wat doen we met de uitkomst), in chat of vanuit een teamworkshop (foto van de poster of export van een board). Gebruik bij onderzoek opzetten, research plan, studie starten of een workshop verwerken.
+description: Creates a discovery plan through the intake canvas (burning question, assumptions, prioritisation, mode, hypothesis, participants and method, what to do with the outcome), in chat or from a team workshop (photo of the poster or export of a board). Use when setting up research, writing a research plan, starting a study or processing a workshop.
 ---
 
 # discovery-plan
 
-Zet input om in `intake.md` en daarna in `plan.md` in de studiemap. Het team beslist; Copilot bereidt voor. Deze skill werft niemand, besteedt geen geld en neemt geen contact op met klanten of respondenten.
+Turns input into `intake.md` and then `plan.md` in the study folder. The team decides; the agent prepares. This skill recruits no one, spends no money and contacts no customers or participants.
 
-Uitgangspunten:
-- Begin bij een vraag of aannames, niet bij een beslissing. De beslissing komt als laatste.
-- Maak aannames expliciet en onderzoek de riskantste eerst.
-- Leg vooraf vast wanneer je gelijk hebt (toetsen) of wanneer je klaar bent (verkennen).
-- Gedrag boven mening. Zoek naar wat je ongelijk geeft, niet naar bevestiging.
+Principles:
+- Start from a question or assumptions, not from a decision. The decision comes last.
+- Make assumptions explicit and research the riskiest first.
+- Decide in advance when you are right (testing) or when you are done (exploring).
+- Behaviour over opinion. Look for what proves you wrong, not for confirmation.
 
-## Regels voor data en compliance
+## Language
 
-Deze regels gaan voor alles hieronder.
-- Zet nooit persoonsgegevens van klanten of respondenten in `intake.md`, `plan.md` of chat: geen namen, e-mailadressen, klantnummers of rekeningnummers. Gebruik rollen of codes (R01, R02).
-- `deelnemers/` blijft buiten Git. Controleer dat `.gitignore` de regel `studies/*/deelnemers/*` bevat; voeg hem anders toe en meld dat.
-- Stel geen externe tools, panels of platforms voor die de organisatie niet heeft goedgekeurd. Schrijf "goedgekeurde testtool" of "goedgekeurd panel" en zet de keuze onder open punten.
-- Werving van eigen klanten gaat via de officiële kanalen van de organisatie. Noem in het plan dat consent en de interne privacyrichtlijnen gelden.
-- Volg de dataclassificatie van de organisatie. Twijfel je of iets in de repo mag, vraag het en schrijf het niet op.
+Respond in the language the user writes in. Write the files in the language the team uses; if that is unclear, use English.
 
-## Stap 1: Route bepalen
+## Data and compliance rules
 
-- **Chat:** iemand vult het canvas met Copilot in. Ga naar stap 2.
-- **Workshop:** er is een foto van de poster of een export van een board als afbeelding toegevoegd. Ga naar stap 3.
+These rules take precedence over everything below.
+- Never put personal data of customers or participants in `intake.md`, `plan.md` or the chat: no names, email addresses, customer numbers or account numbers. Use roles or codes (P01, P02).
+- `participants/` stays out of Git. Check that `.gitignore` contains the line `studies/*/participants/*`; if not, add it and say so.
+- Do not suggest external tools, panels or platforms the organisation has not approved. Write "approved test tool" or "approved panel" and list the choice under open questions.
+- Recruiting existing customers goes through the organisation's official channels. State in the plan that consent and the internal privacy guidelines apply.
+- Follow the organisation's data classification. If you are unsure whether something may go in the repository, ask and do not write it down.
 
-De vakken, hulpvragen en methodekaart staan in `references/intake-canvas.md`. Het draaiboek voor een workshop staat in `references/workshop-draaiboek.md`.
+## Step 1: Choose the route
 
-## Stap 2: Chatroute
+- **Chat:** someone fills in the canvas with the agent. Go to step 2.
+- **Workshop:** a photo of the poster or an export of a board has been attached as an image. Go to step 3.
 
-Haal eerst uit het gesprek wat er al is, en vraag kort naar de context als die ontbreekt: over welk product of welke flow gaat het, en wat zijn de tijd en het budget?
+The sections, prompts and method card are in `references/intake-canvas.md`. The workshop script is in `references/workshop-script.md`.
 
-Loop daarna de zeven vakken in volgorde af. Stel hooguit twee vragen tegelijk. Laat na vak 3 en na vak 6 kort de tussenstand zien. Vul niets in wat de gebruiker niet zei: vraag het, of zet het onder open punten.
+## Step 2: Chat route
 
-1. **Brandende vraag.** Wat wil je weten dat je nu niet weet? Benoem het type: behoefte, gebruikers, huidige oplossing, workflow, wil, bruikbaarheid of vindbaarheid. Is de vraag een oplossing in vermomming ("willen klanten feature X?"), herformuleer dan samen naar het onderliggende probleem.
-2. **Aannames.** Wat denk je nu al? Vraag door tot er minimaal vijf zijn, verdeeld over bedrijf (waarde, kosten, kanaal, regelgeving) en klanten (wie, waarom, wanneer, wat ze nu doen). Schrijf ze als "We denken dat...".
-3. **Prioriteren.** Scoor elke aanname op risico als hij niet klopt (hoog/laag) en bewijs nu (sterk/zwak). Hoog risico plus zwak bewijs gaat door, maximaal drie. Laat de gebruiker de keuze bevestigen.
-4. **Modus.** Kan de gebruiker opschrijven wat hij denkt dat waar is? Ja: toetsen. Nee: verkennen.
-5. **Hypothese of klaar-criterium.** Toetsen: "We denken dat [aanname] voor [wie]. Dat klopt als we [gedrag of signaal] zien bij [aantal of aandeel]." Verkennen: "We zijn klaar als we [...] kunnen beschrijven." Leg dit vast voordat er data is.
-6. **Deelnemers en methode.** Maximaal twee segmenten op gedrag of aanleiding. Aantallen: usabilitytest 5 per segment, interviews 6 tot 8. Methode volgens de methodekaart. Nooit direct vragen naar toekomstig gedrag of betalingsbereidheid: vraag naar wat mensen nu doen. Een survey alleen bij een concrete telvraag.
-7. **Wat doen we met de uitkomst?** Welke keuzes kan dit veranderen, wie moet het horen, en wanneer?
+First take what is already in the conversation, and briefly ask for the context if it is missing: which product or flow is this about, and what are the time and budget?
 
-## Stap 3: Workshoproute
+Then go through the seven sections in order. Ask at most two questions at a time. Show a short summary after section 3 and after section 6. Do not fill in anything the user did not say: ask, or list it under open questions.
 
-Bekijk de toegevoegde afbeelding en schrijf de post-its per vak over:
-- De kleur van een post-it bepaalt de kolom bij aannames (bedrijf of klanten).
-- De positie op de 2x2 bepaalt de prioriteit.
-- Neem tekst letterlijk over. Verbeter geen formuleringen.
-- Wat onleesbaar of dubbelzinnig is, krijgt `[?]`. Gok nooit.
-- Lege vakken blijven leeg en komen onder open punten.
-- Staan er persoonsgegevens op de foto, neem die dan niet over en meld het.
+1. **Burning question.** What do you want to know that you do not know now? Name the type: need, users, current solution, workflow, desire, usability or findability. If the question is a solution in disguise ("do customers want feature X?"), reframe it together into the underlying problem.
+2. **Assumptions.** What do you already believe? Keep asking until there are at least five, split between business (value, cost, channel, regulation) and customers (who, why, when, what they do now). Write them as "We believe that...".
+3. **Prioritise.** Score each assumption on risk if it is wrong (high/low) and current evidence (strong/weak). High risk plus weak evidence goes through, three at most. Ask the user to confirm the selection.
+4. **Mode.** Can the user write down what they believe is true? Yes: test. No: explore.
+5. **Hypothesis or done criterion.** Test: "We believe that [assumption] for [whom]. We are right if we see [behaviour or signal] in [number or share]." Explore: "We are done when we can describe [...]." Record this before there is any data.
+6. **Participants and method.** At most two segments, based on behaviour or trigger. Numbers: usability test 5 per segment, interviews 6 to 8. Method according to the method card. Never ask directly about future behaviour or willingness to pay: ask what people do now. A survey only for a concrete counting question.
+7. **What do we do with the outcome?** Which choices can this change, who needs to hear it, and when?
 
-Stel daarna in chat alleen vragen over de `[?]`-punten en lege vakken, maximaal drie tegelijk.
+## Step 3: Workshop route
 
-## Stap 4: intake.md
+Look at the attached image and transcribe the sticky notes per section:
+- The colour of a sticky note decides the column for assumptions (business or customers).
+- The position on the 2x2 decides the priority.
+- Copy text literally. Do not improve the wording.
+- Anything illegible or ambiguous gets `[?]`. Never guess.
+- Empty sections stay empty and go under open questions.
+- If the photo shows personal data, do not copy it and say so.
 
-Schrijf `studies/JJJJ-MM-<slug>/intake.md` volgens `references/intake-template.md`.
+Then ask in chat only about the `[?]` items and empty sections, three at a time at most.
 
-## Stap 5: plan.md
+## Step 4: intake.md
 
-Maak `plan.md` in dezelfde map:
+Write `studies/YYYY-MM-<slug>/intake.md` following `references/intake-template.md`.
+
+## Step 5: plan.md
+
+Create `plan.md` in the same folder:
 
 ```markdown
-# <Studienaam>
+# <Study name>
 
-Status: plan · <datum> · eigenaar: <rol> · bron: <workshop of chat>
+Status: plan · <date> · owner: <role> · source: <workshop or chat>
 
-## Brandende vraag
-<vraag> (type: <type>)
+## Burning question
+<question> (type: <type>)
 
-## Riskantste aannames
-| Aanname | Kolom | Risico | Bewijs |
+## Riskiest assumptions
+| Assumption | Column | Risk | Evidence |
 | --- | --- | --- | --- |
 
-## Modus
-Verkennen / toetsen, omdat ...
+## Mode
+Explore / test, because ...
 
-## Hypothese of klaar-criterium
+## Hypothesis or done criterion
 - ...
 
-## Methode
-<methode> omdat <reden, gekoppeld aan het type vraag>.
+## Method
+<method> because <reason, linked to the question type>.
 
-## Deelnemers
-- Segmenten: ...
-- Aantal: ...
-- Werving: goedgekeurd panel / eigen klanten via officiële kanalen
-- Screenercriteria: moet ..., sluit uit ...
-- Consent en privacy: volgens de interne richtlijnen
+## Participants
+- Segments: ...
+- Number: ...
+- Recruitment: approved panel / existing customers through official channels
+- Screener criteria: must ..., excludes ...
+- Consent and privacy: according to the internal guidelines
 
 ## Planning
-| Stap | Datum |
+| Step | Date |
 | --- | --- |
 
-## Wat doen we met de uitkomst
-- Keuzes die dit kan veranderen: ...
-- Wie moet het horen: ...
-- Wanneer: ...
+## What we do with the outcome
+- Choices this can change: ...
+- Who needs to hear it: ...
+- When: ...
 
-## Open punten
+## Open questions
 - ...
 ```
 
-Controleer voor je afrondt:
-- Kan de uitkomst nog iets veranderen? Zo niet: zeg dat eerlijk en stel voor de studie te schrappen of te verkleinen.
-- Staat er al iets in eerdere studies (`studies/*/inzichten/`) dat de vraag beantwoordt?
-- Staan er geen persoonsgegevens in de bestanden?
+Check before you finish:
+- Can the outcome still change anything? If not, say so honestly and suggest dropping or shrinking the study.
+- Do earlier studies (`studies/*/insights/`) already answer the question?
+- Are the files free of personal data?
 
-Zet daarnaast `status.md` met `fase: plan-klaar`, de datum en de volgende stap, en maak de mappen `instrumenten/`, `deelnemers/`, `sessies/`, `snapshots/`, `inzichten/` en `readout/` aan als ze er nog niet zijn.
+Also write `status.md` with `phase: plan-ready`, the date and the next step, and create the folders `instruments/`, `participants/`, `sessions/`, `snapshots/`, `insights/` and `readout/` if they do not exist yet.
 
-## Afronden
+## Finish
 
-Vat het plan in chat kort samen en stel voor het via een pull request te laten reviewen door het team. Begin geen volgende fase zonder akkoord.
+Summarise the plan briefly in chat and suggest having the team review it through a pull request. Do not start a next phase without agreement.

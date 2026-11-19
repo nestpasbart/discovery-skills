@@ -2,7 +2,7 @@
 
 Agent skills for product discovery, by [Supported by Design](https://supportedby.design). They work with GitHub Copilot (agent mode in VS Code, Copilot CLI, cloud agent), Claude and other tools that follow the [Agent Skills](https://agentskills.io) standard.
 
-The skills are written in Dutch.
+The skills are written in English and respond in the language you write in.
 
 ## Skills
 
@@ -18,7 +18,7 @@ With GitHub CLI 2.90 or later (`gh skill` is in public preview):
 
 ```shell
 gh skill preview nestpasbart/discovery-skills discovery-plan
-gh skill install nestpasbart/discovery-skills discovery-plan --pin v1.0.0
+gh skill install nestpasbart/discovery-skills discovery-plan --pin v2.0.0
 ```
 
 Or copy `skills/discovery-plan/` to `.github/skills/discovery-plan/` in your repository.
@@ -26,8 +26,8 @@ Or copy `skills/discovery-plan/` to `.github/skills/discovery-plan/` in your rep
 Add this to your `.gitignore`, so participant data never ends up in Git:
 
 ```
-studies/*/deelnemers/*
-!studies/*/deelnemers/.gitkeep
+studies/*/participants/*
+!studies/*/participants/.gitkeep
 ```
 
 ## Built for strict environments
@@ -38,7 +38,7 @@ The skill uses no external tools or services. It keeps personal data out of ever
 
 ## Nederlands
 
-Skills voor product discovery van [Supported by Design](https://supportedby.design). `discovery-plan` maakt een onderzoeksplan via een intake-canvas met zeven vakken, in chat of vanuit een foto van een teamworkshop. Installeren kan met `gh skill install` of door `skills/discovery-plan/` naar `.github/skills/` in je repo te kopiëren.
+Skills voor product discovery van [Supported by Design](https://supportedby.design). De skills zijn in het Engels geschreven en antwoorden in de taal waarin je schrijft, dus ook in het Nederlands. `discovery-plan` maakt een onderzoeksplan via een intake-canvas met zeven vakken, in chat of vanuit een foto van een teamworkshop. Installeren kan met `gh skill install` of door `skills/discovery-plan/` naar `.github/skills/` in je repo te kopiëren.
 
 ## License
 
