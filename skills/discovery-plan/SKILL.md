@@ -15,7 +15,11 @@ Principles:
 
 ## Language
 
-Respond in the language the user writes in. Write the files in the language the team uses; if that is unclear, use English.
+- Respond in the language the user writes in.
+- Write the study files in the language of the study: the language of the workshop, the interviews or the team. If that is unclear, use English.
+- For a Dutch study, use the Dutch references in `references/nl/`; otherwise use the English ones.
+- Keep quotes and sticky-note text in the language they were said or written in. Never translate them.
+- Folder names stay in English, whatever the language of the study.
 
 ## Data and compliance rules
 

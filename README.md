@@ -2,7 +2,7 @@
 
 Agent skills for product discovery, by [Supported by Design](https://supportedby.design). They work with GitHub Copilot (agent mode in VS Code, Copilot CLI, cloud agent), Claude and other tools that follow the [Agent Skills](https://agentskills.io) standard.
 
-The skills are written in English and respond in the language you write in.
+The skills are written in English and respond in the language you write in. Dutch versions of the templates are included; the skill picks the language of the study.
 
 ## Skills
 
@@ -38,7 +38,7 @@ The skill uses no external tools or services. It keeps personal data out of ever
 
 ## Nederlands
 
-Skills voor product discovery van [Supported by Design](https://supportedby.design). De skills zijn in het Engels geschreven en antwoorden in de taal waarin je schrijft, dus ook in het Nederlands. `discovery-plan` maakt een onderzoeksplan via een intake-canvas met zeven vakken, in chat of vanuit een foto van een teamworkshop. Installeren kan met `gh skill install` of door `skills/discovery-plan/` naar `.github/skills/` in je repo te kopiëren.
+Skills voor product discovery van [Supported by Design](https://supportedby.design). De skills zijn in het Engels geschreven en antwoorden in de taal waarin je schrijft, dus ook in het Nederlands. De templates zijn er ook in het Nederlands, in `references/nl/`. `discovery-plan` maakt een onderzoeksplan via een intake-canvas met zeven vakken, in chat of vanuit een foto van een teamworkshop. Installeren kan met `gh skill install` of door `skills/discovery-plan/` naar `.github/skills/` in je repo te kopiëren.
 
 ## License
 
