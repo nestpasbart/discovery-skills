@@ -10,7 +10,7 @@ The skills are written in English and respond in the language you write in. Dutc
 | --- | --- |
 | [discovery-plan](skills/discovery-plan/SKILL.md) | Turns a research question into a discovery plan through a seven-part intake canvas: burning question, assumptions, prioritisation, mode (explore or test), hypothesis, participants and method, and what to do with the outcome. Works in chat or from a photo of a team workshop. |
 
-The approach draws on Lean UX (Gothelf and Seiden), Practical Design Discovery (Dan Brown), UX Strategy (Jaime Levy), Validating Product Ideas (Tomer Sharon), Continuous Discovery Habits (Teresa Torres) and Crossing the Chasm (Geoffrey Moore): start from a question or assumptions, test the riskiest first, decide in advance what would prove you wrong, favour behaviour over opinion, compare several ideas instead of judging one, and think early about how you will reach the user.
+The approach draws on Lean UX (Gothelf and Seiden), Practical Design Discovery (Dan Brown), UX Strategy (Jaime Levy) and Validating Product Ideas (Tomer Sharon): start from a question or assumptions, test the riskiest first, decide in advance what would prove you wrong, and favour behaviour over opinion.
 
 ## Install
 
