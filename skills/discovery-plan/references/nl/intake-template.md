@@ -12,7 +12,7 @@ Onleesbare of dubbelzinnige punten staan gemarkeerd met [?].
 
 ## 1. Brandende vraag
 - Vraag:
-- Type: behoefte | gebruikers | huidige oplossing | workflow | wil | bruikbaarheid | vindbaarheid
+- Type: probleem | gebruikers | behoeften | huidige oplossing | markt | willen | gebruiken | vinden | beter | afhaken
 - Andere kandidaat-vragen:
 
 ## 2. Aannames
@@ -22,8 +22,8 @@ Onleesbare of dubbelzinnige punten staan gemarkeerd met [?].
 -
 
 ## 3. Prioriteit
-| Aanname | Risico | Bewijs | Door? |
-| --- | --- | --- | --- |
+| Aanname | Risico | Bewijs (sterk, zwak, geen) | Bron | Door? |
+| --- | --- | --- | --- | --- |
 
 ## 4. Modus
 - verkennen | toetsen, per gekozen aanname

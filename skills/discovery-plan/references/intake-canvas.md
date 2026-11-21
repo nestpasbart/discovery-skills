@@ -10,22 +10,25 @@ Canvas header: **study name · date · who fills it in**
 
 Choose the type of question. The type decides the method later.
 
-- Need: what do people need?
+- Problem: which problem are we solving?
 - Users: who are they?
-- Current solution: how do they solve it now?
-- Workflow: how does it unfold over time?
+- Needs: what do people need?
+- Current solution: how do they solve it now, also over time?
+- Market: what do others do, and what do people compare us with?
 - Desire: do they really want this?
 - Usability: can they use it?
 - Findability: do they find what they are looking for?
+- Better design: which design works better?
+- Drop-off: where do people drop out of the funnel?
 
-**Example:** "Why does only a small share of customers who start the application actually complete it?" (usability)
+**Example:** "Why does only a small share of customers who start the application actually complete it?" (drop-off)
 
 ## 2. Assumptions
 
 **Prompt:** What do we already believe? One assumption per sticky note, starting with "We believe that...".
 
 Two columns:
-- **Business:** value, cost, channel, regulation
+- **Business:** value, cost, channel, regulation, competition
 - **Customers:** who, why, when, what they do now
 
 **Example:** "We believe that customers drop out because they have to look up information halfway through."
@@ -33,6 +36,8 @@ Two columns:
 ## 3. Prioritise
 
 **Prompt:** How bad is it if this assumption is wrong, and how much evidence do we have now?
+
+Evidence only counts with a source: results of a questionnaire or survey, research, interviews, observations or product data. Write the source on the sticky note. Without a source it is not evidence, whoever says it.
 
 A 2x2:
 - Horizontal: evidence, from strong (left) to weak (right)
@@ -49,11 +54,11 @@ A 2x2:
 
 ## 5. Hypothesis or done criterion
 
-**When testing:** "We believe that [assumption] for [whom]. We are right if we see [behaviour or signal] in [number or share]."
+**When testing:** "We believe that [assumption] for [whom]. We are right if we see [behaviour or signal] in [number]."
 
 **When exploring:** "We are done when we can describe [what we want to be able to describe]."
 
-Write this down before there is any data. Look for what proves you wrong, not for confirmation.
+Write this down before there is any data, in counts ("at least 3 of the 5"). Look for what proves you wrong, not for confirmation.
 
 **Example:** "We believe that looking up information is the main reason new customers drop out. We are right if at least 3 of the 5 testers get stuck at that step or mention it."
 
@@ -78,13 +83,15 @@ Write this down before there is any data. Look for what proves you wrong, not fo
 
 | Question type | Method | Where |
 | --- | --- | --- |
-| Need | Experience sampling or interviews about the last time | Existing customers or approved panel |
-| Users | Interviews, short survey to count segments | Approved panel or existing customers |
-| Current solution | Observation or interviews about what people do now | Existing customers |
-| Workflow | Diary study | Approved panel or existing customers |
-| Desire | Fake door, concierge MVP, pre-sale; do not ask | Own product |
+| Problem | Five whys, problem statement, stakeholder interviews | Team and stakeholders |
+| Users | Interviews, proto-persona, adoption profile in the screener | Approved panel or existing customers |
+| Needs | Story interview about the last time, experience sampling | Existing customers or approved panel |
+| Current solution | Observation, diary study, probing for the current alternative | Existing customers or approved panel |
+| Market | Competitor matrix, feature poaching | Desk research |
+| Desire | Fake door, concierge MVP, assumption test; do not ask | Own product |
 | Usability | Usability test with thinking aloud | Approved test tool |
-| Findability | Tree test or card sort | Approved test tool |
-| Which design works better | Preference test, first-click test or A/B test | Approved test tool or own product |
+| Findability | Tree test, first-click test | Approved test tool |
+| Better design | A/B test, first-click test | Own product or approved test tool |
+| Drop-off | Funnel analysis per step, then a usability test on the step where people drop out | Own data, then approved test tool |
 
 Never ask directly about future behaviour or what someone would pay.

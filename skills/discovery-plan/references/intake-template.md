@@ -12,7 +12,7 @@ Illegible or ambiguous items are marked with [?].
 
 ## 1. Burning question
 - Question:
-- Type: need | users | current solution | workflow | desire | usability | findability
+- Type: problem | users | needs | current solution | market | desire | usability | findability | better design | drop-off
 - Other candidate questions:
 
 ## 2. Assumptions
@@ -22,8 +22,8 @@ Illegible or ambiguous items are marked with [?].
 -
 
 ## 3. Priority
-| Assumption | Risk | Evidence | Selected? |
-| --- | --- | --- | --- |
+| Assumption | Risk | Evidence (strong, weak, none) | Source | Selected? |
+| --- | --- | --- | --- | --- |
 
 ## 4. Mode
 - explore | test, per selected assumption
