@@ -38,9 +38,11 @@ Onleesbare of dubbelzinnige punten staan gemarkeerd met [?].
 - Methode:
 
 ## 7. Wat doen we met de uitkomst
-- Keuzes die dit kan veranderen:
+- Besluit (A, B of stoppen):
+- Wie beslist (rol):
+- Beslisdatum:
+- Standaardbesluit als het bewijs niet beslist:
 - Wie moet het horen:
-- Wanneer:
 
 ## Open punten
 -

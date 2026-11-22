@@ -73,9 +73,9 @@ Schrijf dit op voordat er data is, in aantallen ("minstens 3 van de 5"). Zoek na
 
 ## 7. Wat doen we met de uitkomst?
 
-**Hulpvraag:** Welke keuzes kan dit veranderen, wie moet het horen, en wanneer?
+**Hulpvraag:** Welke keuze maakt deze studie mogelijk (A, B of stoppen), wie beslist, en op welke datum? Wat doen we als het bewijs dan nog niet beslist (het standaardbesluit)? Wie moet het horen?
 
-**Voorbeeld:** "Als het opzoeken de oorzaak is, onderzoeken we vooraf ingevulde velden in de volgende sprint. Readout in de teamsessie."
+**Voorbeeld:** "Kiezen tussen vooraf ingevulde velden of een korter formulier. De product owner beslist op 12 december. Wijst niets duidelijk één kant op, dan beginnen we met vooraf ingevulde velden: dat is terug te draaien. Readout in de teamsessie."
 
 ---
 
@@ -85,13 +85,13 @@ Schrijf dit op voordat er data is, in aantallen ("minstens 3 van de 5"). Zoek na
 | --- | --- | --- |
 | Probleem | Vijf waaroms, probleemstelling, stakeholderinterviews | Team en stakeholders |
 | Gebruikers | Interviews, aanname-persona, adoptieprofiel in de screener | Goedgekeurd panel of eigen klanten |
-| Behoeften | Verhaalinterview over de laatste keer, experience sampling | Eigen klanten of goedgekeurd panel |
-| Huidige oplossing | Observatie, dagboekstudie, doorvragen naar het huidige alternatief | Eigen klanten of goedgekeurd panel |
+| Behoeften | Verhaalinterview over de laatste keer, jobsinterview, experience sampling | Eigen klanten of goedgekeurd panel |
+| Huidige oplossing | Observatie, dagboekstudie, doorvragen naar het huidige alternatief, job map | Eigen klanten of goedgekeurd panel |
 | Markt | Concurrentiematrix, feature poaching | Bureauonderzoek |
-| Willen | Fake door, concierge-MVP, aannametest; niet vragen | Eigen product |
+| Willen | Fake door, concierge-MVP, aannametest; niet vragen. Waarom mensen overstappen: Switch-interview | Eigen product |
 | Gebruiken | Usabilitytest met hardop denken | Goedgekeurde testtool |
 | Vinden | Tree test, first-click test | Goedgekeurde testtool |
 | Beter | A/B-test, first-click test | Eigen product of goedgekeurde testtool |
-| Afhaken | Funnelanalyse per stap, daarna een usabilitytest op de stap waar mensen afhaken | Eigen data, dan goedgekeurde testtool |
+| Afhaken | Funnelanalyse per stap, daarna een usabilitytest op de stap waar mensen afhaken; opzeginterview bij wie stopt | Eigen data, dan goedgekeurde testtool |
 
 Nooit direct vragen naar toekomstig gedrag of naar wat iemand zou betalen.

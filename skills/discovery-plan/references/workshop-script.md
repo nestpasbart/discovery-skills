@@ -20,7 +20,7 @@
 | 40–45 | 4. Mode | Per selected assumption: can we write down what we believe? Yes = test, no = explore |
 | 45–55 | 5. Hypothesis or done criterion | Fill in the sentence in pairs per assumption; sharpen the criterion together |
 | 55–65 | 6. Participants and method | Facilitator puts the method card on the table; the group chooses segment, number, source and method |
-| 65–72 | 7. What we do with the outcome | Which choices can it change, who needs to hear it, when |
+| 65–72 | 7. What we do with the outcome | Which decision, who decides, on what date, and what is the default if the evidence doesn't decide |
 | 72–75 | Close | Take a photo or export; agree who reviews the plan |
 
 ## After the workshop

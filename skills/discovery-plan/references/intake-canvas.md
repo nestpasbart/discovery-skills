@@ -73,9 +73,9 @@ Write this down before there is any data, in counts ("at least 3 of the 5"). Loo
 
 ## 7. What do we do with the outcome?
 
-**Prompt:** Which choices can this change, who needs to hear it, and when?
+**Prompt:** Which choice does this study make possible (A, B or stop), who decides, and on what date? What do we do if the evidence still doesn't decide by then (the default decision)? Who needs to hear it?
 
-**Example:** "If looking up information is the cause, we explore pre-filled fields in the next sprint. Readout in the team session."
+**Example:** "Choose between pre-filled fields or a shorter form. The product owner decides on 12 December. If nothing clearly points one way, we start with pre-filled fields: that can be undone. Readout in the team session."
 
 ---
 
@@ -85,13 +85,13 @@ Write this down before there is any data, in counts ("at least 3 of the 5"). Loo
 | --- | --- | --- |
 | Problem | Five whys, problem statement, stakeholder interviews | Team and stakeholders |
 | Users | Interviews, proto-persona, adoption profile in the screener | Approved panel or existing customers |
-| Needs | Story interview about the last time, experience sampling | Existing customers or approved panel |
-| Current solution | Observation, diary study, probing for the current alternative | Existing customers or approved panel |
+| Needs | Story interview about the last time, jobs interview, experience sampling | Existing customers or approved panel |
+| Current solution | Observation, diary study, probing for the current alternative, job map | Existing customers or approved panel |
 | Market | Competitor matrix, feature poaching | Desk research |
-| Desire | Fake door, concierge MVP, assumption test; do not ask | Own product |
+| Desire | Fake door, concierge MVP, assumption test; do not ask. Why people switch: Switch interview | Own product |
 | Usability | Usability test with thinking aloud | Approved test tool |
 | Findability | Tree test, first-click test | Approved test tool |
 | Better design | A/B test, first-click test | Own product or approved test tool |
-| Drop-off | Funnel analysis per step, then a usability test on the step where people drop out | Own data, then approved test tool |
+| Drop-off | Funnel analysis per step, then a usability test on the step where people drop out; cancellation interview with those who stop | Own data, then approved test tool |
 
 Never ask directly about future behaviour or what someone would pay.

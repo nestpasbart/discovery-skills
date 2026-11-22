@@ -1,6 +1,6 @@
 ---
 name: discovery-instrument
-description: Writes and checks research questions for a discovery study from plan.md - interview guide, screener, survey, usability test script, feedback form, diary or experience sampling prompts - and reviews and rewrites questions someone brings themselves. Use when writing interview questions, a questionnaire, a screener, a survey, test tasks or a feedback form, or when asked "are my questions any good?".
+description: Writes and checks research questions for a discovery study from plan.md - interview guide, jobs interview, Switch timeline, screener, survey, usability test script, feedback form, diary or experience sampling prompts - and reviews and rewrites questions someone brings themselves. Use when writing interview questions, a questionnaire, a screener, a survey, test tasks or a feedback form, or when asked "are my questions any good?".
 ---
 
 # discovery-instrument
@@ -9,7 +9,7 @@ Turns `plan.md` into the instruments the study runs on, and makes sure every que
 
 The team decides; the agent prepares. This skill sends nothing, recruits no one and contacts no participants.
 
-Principles (from Torres, Sharon, Levy, Brown, Gothelf and Moore):
+Principles (from Torres, Sharon, Levy, Brown, Gothelf, Moore and Kalbach):
 - Every question serves an assumption or the hypothesis in the plan. A question that serves nothing goes.
 - Past behaviour over opinion and future. Ask about the last time, not "usually" or "would you".
 - Keep the research question (what we want to know) separate from the question to the participant (what we ask). Never ask the research question literally.
@@ -17,6 +17,7 @@ Principles (from Torres, Sharon, Levy, Brown, Gothelf and Moore):
 - Neutral, in the participant's words, not the team's or the interface's.
 - Ask so that the answers can count as evidence later: what someone did counts for more than what someone thinks or plans.
 - Research is not selling. No pitching in a conversation; the proposition at the end at most, and then watch the reaction.
+- In jobs-to-be-done research, ask about the goal and the process, never about a technology, product, brand or solution. The participant has to bring those up. See the JTBD rules below; they apply only to JTBD methods.
 
 ## Language
 
@@ -54,6 +55,9 @@ Decide which instruments are needed:
 | Method | Instruments |
 | --- | --- |
 | Story interview, user interviews, customer discovery | interview guide, screener |
+| Jobs interview | jobs interview guide, screener, coding sheet (quote → job step, emotional or social, need, circumstance) |
+| Switch interview, cancellation interview | timeline guide, screener |
+| Underserved needs | importance and satisfaction survey |
 | Stakeholder interviews | stakeholder guide |
 | Usability test, first-click test, tree test, guerrilla test | test script, screener |
 | Assumption test as a one-question survey, survey to count | survey (with screening first) |
@@ -74,6 +78,7 @@ Make the matrix first, before writing any instrument:
 - Also look for what could refute the assumption, not only for confirmation.
 - Mark an assumption you cannot test with questions (do people really want this, will they pay): that needs behaviour, such as a fake door or a pre-sale. Say so and suggest adjusting the plan. Do not ask it anyway.
 - If there is a go-to-market assumption, include the probe for the current alternative (below).
+- For a JTBD method, column 2 describes which job step, need or circumstance you want to hear, or for Switch which force (push, pull, anxiety, habit).
 
 Show the matrix in chat and ask for agreement. Only then write the instruments.
 
@@ -93,6 +98,51 @@ Write each instrument in the order below. Give each block a time, and mark each 
 8. **Close**: "Is there anything I should have asked?", "Who else should I talk to about this?", thank them and explain what happens with their input.
 
 At the top of the guide, not to be read out: the research question, the assumptions the conversation serves, and "write an interview snapshot straight after".
+
+### JTBD rules
+
+These apply only to instruments for a jobs-to-be-done method (jobs interview, Switch interview, cancellation interview, underserved needs survey, job stories), on top of the question check. For other methods, naming the product is often exactly right, as in a usability test or feedback after launch.
+
+- **No technology, product or solution in the question.** Not "how do you use the app to track your hours?", but "how do you keep track of where your time goes?". If the participant names a tool themselves, ask what it does for them.
+- **No method in the question.** Not "do you search by keyword?", but "how do you find what you need again?".
+- **The job, not the purchase.** A jobs interview is about how someone reaches the goal, not how they found or chose a product. That belongs in a Switch interview or the consumption journey.
+- **The right altitude.** "Why do you do that?" takes you to the outcome, "how do you do that?" to the steps. Don't get stuck in aspirations ("become a better professional") or in buttons.
+- **One time, not usually.** Use the critical incident: one time it went wrong, what happened, and what should have happened.
+- **No brand in the screener.** Recruit on performing the job, not on being a customer. Ask who performs the job and who buys; a buyer cannot speak for the job performer.
+- **Need statements in a survey:** one need per line (no "and" or "or"), as direction + measure + object + clarifier, without technology. Never read them out in an interview; test them by talking about the job and tallying whether the theme comes up.
+
+Extra rows for the question check (step 5), only for JTBD research:
+
+| Problem | You recognise it by | How to rewrite |
+| --- | --- | --- |
+| Technology or product in a job question | "How do you use [tool] to...", product names, "the app" | The goal: "How do you make sure...", "How do you keep track of..." |
+| Method or solution in the job | "Do you search by keyword?", "Do you use a spreadsheet?" | "How do you find... again?", "How do you keep an overview of...?" |
+| Need and job mixed up | "How do you quickly find the cheapest flight?" | Job and needs separately: "How do you find a flight?", then probe time and price |
+| Aspiration instead of job | "How do you become a better parent?" | One level down: "How do you plan...", "How do you arrange..." |
+| Buying process in a jobs interview | "How did you find us?" | Keep it for a Switch interview or the consumption journey |
+
+### Jobs interview guide
+
+1. **Opening** (2–3 min): as in the interview guide, and say it is about their work or life, not about a product.
+2. **Background** (5 min): who are you, when did you last [do the job], how did it go?
+3. **The job** (10 min): what are you trying to achieve? What do you want to avoid? What else do you need to get done?
+4. **The process** (20–30 min): how do you start? What comes next? How do you decide along the way? How do you know it is going well? How do you wrap up? Sketch the process together and point at steps.
+5. **Needs** (10–15 min): what workarounds do you use? What do you put off or avoid, and why? What is the most annoying part? Critical incident: one time it went wrong, what happened, and what should have happened.
+6. **Circumstances** (5 min): when do you do it differently? What influences your choices?
+7. **Close**: as in the interview guide. Questions about the team's product only here, if at all.
+
+At the top, not to be read out: the main job, the job performer, the hypothesis about the steps and circumstances, and "debrief straight after, fill in the coding sheet".
+
+### Timeline guide (Switch and cancellation)
+
+No questionnaire but the timeline as a guide, working back from the moment of switching or cancelling: using, the moment itself, actively looking, passively looking, first thought. Keep asking "what happened before that?" and "why then?". Include at least one question per force: what stopped working (push), what attracted you (pull), what you worried about (anxiety), what you had to let go of (habit). For cancelling: what stopped you getting the job done, and which outcomes stayed unmet? For business software: who decided, are they still there, what changed in your work?
+
+### Importance and satisfaction survey
+
+1. Screening first: does the person perform the job (behaviour, recent)?
+2. For each need statement, two questions on 1–10 with labelled end points: how important is this to you, and how satisfied are you with how it goes now?
+3. Randomise the order of the statements. No product or brand in the statements.
+4. Keep it short enough to answer with attention; with many statements, score the steps of the job map instead. Sample: at least 150, and at least twice the number of statements; otherwise the result is a direction, not evidence. Opportunity score per need: importance + max(importance − satisfaction, 0).
 
 ### Stakeholder guide
 
@@ -160,6 +210,7 @@ Check every question before delivering. Use the same check in the review route.
 | Options do not work | Overlapping, not exhaustive, no way out | Mutually exclusive and exhaustive, with "other" and "don't know" |
 | Serves nothing | No assumption or hypothesis in the matrix | Remove, or raise as an open question for the plan |
 | Asks more than needed | Personal or sensitive data without reason | Leave out |
+| Asking for the ideal solution | "What would the perfect app do for you?" | "What went wrong, and what should have happened?" |
 
 Then check the whole:
 - Does every assumption in the matrix have a question, task or observation?
@@ -204,7 +255,7 @@ Summarise briefly in chat what is in the instruments and what you deliberately l
 For questions someone brings themselves, also outside a study.
 
 1. If missing, ask: what do you want to know (the research question), from whom, and what will you do with the outcome? Without a research question you cannot judge whether a question is needed.
-2. Run every question through the question check. Show the result as a table:
+2. Run every question through the question check, and for JTBD research (jobs, Switch, cancellation, need statements) also through the JTBD rules. Show the result as a table:
 
    | # | Original question | Problem | Rewritten |
    | --- | --- | --- | --- |

@@ -38,9 +38,11 @@ Illegible or ambiguous items are marked with [?].
 - Method:
 
 ## 7. What we do with the outcome
-- Choices this can change:
+- Decision (A, B or stop):
+- Who decides (role):
+- Decision date:
+- Default decision if the evidence doesn't decide:
 - Who needs to hear it:
-- When:
 
 ## Open questions
 -
