@@ -22,7 +22,7 @@ Nederlandse versie van `references/workshop-script.md`.
 | 40–45 | 4. Modus | Per gekozen aanname: kunnen we opschrijven wat we denken? Ja = toetsen, nee = verkennen |
 | 45–55 | 5. Hypothese of klaar-criterium | In tweetallen per aanname de zin invullen; samen het criterium scherp maken |
 | 55–65 | 6. Deelnemers en methode | Facilitator legt de methodekaart neer; groep kiest segment, aantal, bron en methode |
-| 65–72 | 7. Wat doen we met de uitkomst | Welke keuzes kan het veranderen, wie moet het horen, wanneer |
+| 65–72 | 7. Wat doen we met de uitkomst | Welk besluit, wie beslist, op welke datum, en wat is het standaardbesluit als het bewijs niet beslist |
 | 72–75 | Afsluiting | Foto of export maken; afspreken wie het plan reviewt |
 
 ## Na de workshop

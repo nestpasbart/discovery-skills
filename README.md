@@ -8,9 +8,10 @@ The skills are written in English and respond in the language you write in. Dutc
 
 | Skill | What it does |
 | --- | --- |
-| [discovery-plan](skills/discovery-plan/SKILL.md) | Turns a research question into a discovery plan through a seven-part intake canvas: burning question, assumptions, prioritisation, mode (explore or test), hypothesis, participants and method, and what to do with the outcome. Works in chat or from a photo of a team workshop. |
+| [discovery-plan](skills/discovery-plan/SKILL.md) | Turns a research question into a discovery plan through a seven-part intake canvas: burning question, assumptions, prioritisation, mode (explore or test), hypothesis, participants and method, and the decision the study should lead to. Works in chat or from a photo of a team workshop, and helps the team decide once the study is done. |
+| [discovery-instrument](skills/discovery-instrument/SKILL.md) | Turns the plan into interview guides, screeners, surveys, test scripts and feedback forms, including jobs-to-be-done interviews and Switch timelines, and checks every question. Also reviews and rewrites questions you bring yourself. |
 
-The approach draws on Lean UX (Gothelf and Seiden), Practical Design Discovery (Dan Brown), UX Strategy (Jaime Levy) and Validating Product Ideas (Tomer Sharon): start from a question or assumptions, test the riskiest first, decide in advance what would prove you wrong, and favour behaviour over opinion.
+The approach draws on Lean UX (Gothelf and Seiden), Practical Design Discovery (Dan Brown), UX Strategy (Jaime Levy), Validating Product Ideas (Tomer Sharon), Continuous Discovery Habits (Teresa Torres), Crossing the Chasm (Geoffrey Moore) and The Jobs To Be Done Playbook (Jim Kalbach): start from a question or assumptions, test the riskiest first, decide in advance what would prove you wrong, favour behaviour over opinion, and end every study in a decision.
 
 ## Install
 
@@ -38,7 +39,7 @@ The skill uses no external tools or services. It keeps personal data out of ever
 
 ## Nederlands
 
-Skills voor product discovery van [Supported by Design](https://supportedby.design). De skills zijn in het Engels geschreven en antwoorden in de taal waarin je schrijft, dus ook in het Nederlands. De templates zijn er ook in het Nederlands, in `references/nl/`. `discovery-plan` maakt een onderzoeksplan via een intake-canvas met zeven vakken, in chat of vanuit een foto van een teamworkshop. Installeren kan met `gh skill install` of door `skills/discovery-plan/` naar `.github/skills/` in je repo te kopiëren.
+Skills voor product discovery van [Supported by Design](https://supportedby.design). De skills zijn in het Engels geschreven en antwoorden in de taal waarin je schrijft, dus ook in het Nederlands. De templates zijn er ook in het Nederlands, in `references/nl/`. `discovery-plan` maakt een onderzoeksplan via een intake-canvas met zeven vakken, in chat of vanuit een foto van een teamworkshop. `discovery-instrument` maakt daar interviewgidsen, screeners en surveys van en controleert elke vraag. Installeren kan met `gh skill install` of door `skills/discovery-plan/` naar `.github/skills/` in je repo te kopiëren.
 
 ## License
 
